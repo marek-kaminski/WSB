@@ -1,0 +1,15 @@
+C:\Users\studentwsb\Desktop\apk\zajęcia1\zaznaczenie\bin\Debug\zaznaczenie.exe.config
+C:\Users\studentwsb\Desktop\apk\zajęcia1\zaznaczenie\bin\Debug\zaznaczenie.exe
+C:\Users\studentwsb\Desktop\apk\zajęcia1\zaznaczenie\bin\Debug\zaznaczenie.pdb
+C:\Users\studentwsb\Desktop\apk\zajęcia1\zaznaczenie\obj\Debug\zaznaczenie.csprojAssemblyReference.cache
+C:\Users\studentwsb\Desktop\apk\zajęcia1\zaznaczenie\obj\Debug\MainWindow.g.cs
+C:\Users\studentwsb\Desktop\apk\zajęcia1\zaznaczenie\obj\Debug\App.g.cs
+C:\Users\studentwsb\Desktop\apk\zajęcia1\zaznaczenie\obj\Debug\zaznaczenie_MarkupCompile.cache
+C:\Users\studentwsb\Desktop\apk\zajęcia1\zaznaczenie\obj\Debug\zaznaczenie_MarkupCompile.lref
+C:\Users\studentwsb\Desktop\apk\zajęcia1\zaznaczenie\obj\Debug\MainWindow.baml
+C:\Users\studentwsb\Desktop\apk\zajęcia1\zaznaczenie\obj\Debug\zaznaczenie.g.resources
+C:\Users\studentwsb\Desktop\apk\zajęcia1\zaznaczenie\obj\Debug\zaznaczenie.Properties.Resources.resources
+C:\Users\studentwsb\Desktop\apk\zajęcia1\zaznaczenie\obj\Debug\zaznaczenie.csproj.GenerateResource.cache
+C:\Users\studentwsb\Desktop\apk\zajęcia1\zaznaczenie\obj\Debug\zaznaczenie.csproj.CoreCompileInputs.cache
+C:\Users\studentwsb\Desktop\apk\zajęcia1\zaznaczenie\obj\Debug\zaznaczenie.exe
+C:\Users\studentwsb\Desktop\apk\zajęcia1\zaznaczenie\obj\Debug\zaznaczenie.pdb
