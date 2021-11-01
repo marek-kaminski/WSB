@@ -1,0 +1,15 @@
+C:\Users\studentwsb\Desktop\apk\zajęcia1\wyszukiwarka\bin\Debug\wyszukiwarka.exe.config
+C:\Users\studentwsb\Desktop\apk\zajęcia1\wyszukiwarka\bin\Debug\wyszukiwarka.exe
+C:\Users\studentwsb\Desktop\apk\zajęcia1\wyszukiwarka\bin\Debug\wyszukiwarka.pdb
+C:\Users\studentwsb\Desktop\apk\zajęcia1\wyszukiwarka\obj\Debug\MainWindow.g.cs
+C:\Users\studentwsb\Desktop\apk\zajęcia1\wyszukiwarka\obj\Debug\App.g.cs
+C:\Users\studentwsb\Desktop\apk\zajęcia1\wyszukiwarka\obj\Debug\wyszukiwarka_MarkupCompile.cache
+C:\Users\studentwsb\Desktop\apk\zajęcia1\wyszukiwarka\obj\Debug\wyszukiwarka_MarkupCompile.lref
+C:\Users\studentwsb\Desktop\apk\zajęcia1\wyszukiwarka\obj\Debug\MainWindow.baml
+C:\Users\studentwsb\Desktop\apk\zajęcia1\wyszukiwarka\obj\Debug\wyszukiwarka.g.resources
+C:\Users\studentwsb\Desktop\apk\zajęcia1\wyszukiwarka\obj\Debug\wyszukiwarka.Properties.Resources.resources
+C:\Users\studentwsb\Desktop\apk\zajęcia1\wyszukiwarka\obj\Debug\wyszukiwarka.csproj.GenerateResource.cache
+C:\Users\studentwsb\Desktop\apk\zajęcia1\wyszukiwarka\obj\Debug\wyszukiwarka.csproj.CoreCompileInputs.cache
+C:\Users\studentwsb\Desktop\apk\zajęcia1\wyszukiwarka\obj\Debug\wyszukiwarka.exe
+C:\Users\studentwsb\Desktop\apk\zajęcia1\wyszukiwarka\obj\Debug\wyszukiwarka.pdb
+C:\Users\studentwsb\Desktop\apk\zajęcia1\wyszukiwarka\obj\Debug\wyszukiwarka.csprojAssemblyReference.cache
