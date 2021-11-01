@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="naszaKontrolka" Content="Witaj świecie!" HorizontalAlignment="Left" Margin="201,91,0,0" VerticalAlignment="Top" Height="54" Width="183" FontSize="26"/>
+        <Button Content="tłumacz ang." HorizontalAlignment="Left" Margin="183,182,0,0" VerticalAlignment="Top" Width="171" Height="67" FontSize="25" Click="Button_Click"/>
+        <Button Content="tłumacz pl." HorizontalAlignment="Left" VerticalAlignment="Top" Width="171" Margin="183,282,0,0" Height="54" FontSize="24" Click="Button_Click_1"/>
+        <Label x:Name="lblCzas" Content="Czas" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="497,91,0,0" Height="54" Width="166" FontSize="32" MouseEnter="lblCzas_MouseEnter" MouseLeave="lblCzas_MouseLeave"/>
+
+    </Grid>
+</Window>
