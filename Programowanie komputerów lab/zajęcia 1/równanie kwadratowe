@@ -1,0 +1,46 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace dodawanie
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                Console.WriteLine("Podaj liczbę a: ");
+                float a;
+                a = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Podaj liczbe b: ");
+                float b;
+                b = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Podaj liczbe ca: ");
+                float c;
+                c = Convert.ToInt32(Console.ReadLine());
+
+
+
+                //wzór na delte to: bb -4ac
+                float delta;
+                delta = Convert.ToSingle((b*b) -4*a*c);
+
+                Console.WriteLine("delta z liczb: {0},{1},{2} wynosi {3} ",a,b,c, delta);
+                Console.ReadKey();
+            }
+            catch (Exception uchwyt)
+            {
+
+                //throw;
+
+                Console.WriteLine(uchwyt.Message);
+                Console.ReadKey();
+            }
+        }
+    }
+}
