@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace dodawanie
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                Console.WriteLine("Podaj liczbe numer jeden: ");
+                float x;
+                x = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Podaj liczbe numer dwa: ");
+                float y;
+                y = Convert.ToInt32(Console.ReadLine());
+
+                //float srednia = (x + y)/2 ;
+                float srednia;
+                srednia = Convert.ToSingle((x + y) / 2);
+
+                Console.WriteLine("średnia liczb {0} oraz {1} wynosi {2}", x, y, srednia);
+                Console.ReadKey();
+            }
+            catch (Exception uchwyt)
+            {
+
+                //throw;
+
+                Console.WriteLine(uchwyt.Message);
+                Console.ReadKey();
+            }
+        }
+    }
+}
