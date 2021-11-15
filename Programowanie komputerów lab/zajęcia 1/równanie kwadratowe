@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+/*Marek Kamiński 62464 kierunek Informatyka grupa 1.2 
+program obliczający równanie kwadratowe*/
 
 namespace dodawanie
 {
@@ -20,24 +22,59 @@ namespace dodawanie
                 float b;
                 b = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("Podaj liczbe ca: ");
+                Console.WriteLine("Podaj liczbe c: ");
                 float c;
                 c = Convert.ToInt32(Console.ReadLine());
-
+                
+                if (a == 0)
+                    {
+                    throw new ArithmeticException("Liczba 'a' nie może być równa zero ");
+                    }
 
 
                 //wzór na delte to: bb -4ac
                 float delta;
                 delta = Convert.ToSingle((b*b) -4*a*c);
+                double deltaSqrt;
+                deltaSqrt = Math.Sqrt(delta);
 
                 Console.WriteLine("delta z liczb: {0},{1},{2} wynosi {3} ",a,b,c, delta);
+                
+
+                if (delta > 0)
+                    { 
+                        double x1;
+                        x1 = (-b + deltaSqrt)/ (2*a);
+                        double x2;
+                        x2 = (-b - deltaSqrt)/ (2*a);
+                        Console.WriteLine("delta dodatnia ");
+                        Console.WriteLine("x1 = {0}, x2 = {1} ", x1, x2);
+                    
+                        
+                    }
+
+                if (delta == 0)
+                    { 
+                        double x0;
+                        x0 = -b / (2*a);
+                        Console.WriteLine("delta równa zero ");
+                        Console.WriteLine("x0 = {0} ", x0);
+
+                        
+                    }
+
+                if (delta < 0)
+                    { 
+                        Console.WriteLine("delta jest ujemna więc równanie kwadratowe nie ma rozwiązań");
+                    }
+
                 Console.ReadKey();
             }
             catch (Exception uchwyt)
             {
 
                 //throw;
-
+                Console.WriteLine("Niestety jedna z liczb jest nieprawidłowa. Błąd:");
                 Console.WriteLine(uchwyt.Message);
                 Console.ReadKey();
             }
