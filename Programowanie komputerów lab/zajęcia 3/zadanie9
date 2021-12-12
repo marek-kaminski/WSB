@@ -1,0 +1,45 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace zad8
+{
+    class zadanie8
+    {
+        static void Main(string[] args)
+        {
+
+
+            //            Napisz program obliczający sumę n początkowych liczb nieparzystych. Liczbę n należy
+            //pobrać od użytkownika. Do obliczenia wartości sumy użyj pętli for.
+
+
+            Console.WriteLine("Podaj ile liczb nieparzystych dodać: ");
+            float n;
+            n = Convert.ToInt32(Console.ReadLine());
+
+            float a;
+            a = 1;
+
+            float b;
+            b = 0;
+            Console.Write("1");
+            for (float i = n; i > 0; i--)
+            {
+
+                b = b + a;
+                a = a + 2;
+                Console.Write("+{0}", a);
+
+
+            }
+
+
+            Console.Write("={0}", b);
+            Console.ReadKey();
+
+        }
+    }
+}
