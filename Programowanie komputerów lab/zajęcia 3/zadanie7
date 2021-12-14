@@ -1,0 +1,49 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace zad8
+{
+    class zadanie8
+    {
+        static void Main(string[] args)
+        {
+
+
+            //Napisz program pobierający od użytkownika dwie liczby całkowite dodatnie(a oraz b).
+            //Program powinien wyświetlać informację, czy druga liczba jest dzielnikiem pierwszej.
+            //Rozszerz możliwości programu o wypisanie wszystkich dzielników dodatnich pierwszej
+            //liczby.
+
+            Console.WriteLine("Podaj pierwszą liczbę: ");
+            float a;
+            a = Convert.ToInt32(Console.ReadLine());
+            
+            Console.WriteLine("Podaj liczbę, która ma być dzielnikiem: ");
+            float b;
+            b = Convert.ToInt32(Console.ReadLine());
+
+            if (a % b == 0)
+            {
+                Console.WriteLine("Liczba {0} jest dzielnikiem liczby {1} ", b, a);
+
+                Console.WriteLine("Dzielniki liczby {0}: ", a);
+                float counter = 1;
+
+                for (float i = 0; i >= a; i=i+b)
+                {
+                    Console.Write("Dzielniki liczby {0}: ", a);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Liczba {0} nie jest dzielnikiem liczby {1} ", b, a);
+            }
+
+            Console.ReadKey();
+
+        }
+    }
+}
