@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace zad8
 {
-    class Program
+    class zadanie8
     {
         static void Main(string[] args)
         {
 
+
+            //Napisz program drukujący na ekranie kolejne liczby naturalne podzielne przez 7. Ilość liczb
+            //wczytaj z klawiatury . Użyj pętli for.
 
             Console.WriteLine("Podaj ile liczb podzielnych przez 7 ma być wyświetlone: ");
             float ile;
@@ -21,8 +24,6 @@ namespace zad8
 
             for (float i = ile; i > 0; i--)
             {
-
-                // ;
 
 
                 Console.WriteLine(a);
