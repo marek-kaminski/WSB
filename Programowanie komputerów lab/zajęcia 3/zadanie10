@@ -27,34 +27,22 @@ namespace zad8
             float h;
             h = Convert.ToInt32(Console.ReadLine());
 
-            float a;
-            a = 1;
 
-            for (float i = 1; i < h; i++)
+            float a = 1;
+
+            for (float i = 1; i <= h; ++i)
             {
+                
 
-                Console.WriteLine("{0}", i);
-
-                for (float j=i; i < h; j--)
+                for (float j = 1; j <= i; j++)
                 {
-
-                    
+                    a = 1 ;
+                    Console.Write("{0} ",a);
 
                 }
-
-
-
-
-                Console.Write(a);
-                a = 2 * a;
-
-                Console.Write(a);
-                a = a + 7;
-
+                Console.WriteLine("", i);
             }
-
             Console.ReadKey();
-
         }
     }
 }
