@@ -1,0 +1,5 @@
+C:\Users\studentwsb\source\repos\zajęcia2\zajecia2zad2\bin\Debug\zajecia2zad2.exe.config
+C:\Users\studentwsb\source\repos\zajęcia2\zajecia2zad2\bin\Debug\zajecia2zad2.exe
+C:\Users\studentwsb\source\repos\zajęcia2\zajecia2zad2\bin\Debug\zajecia2zad2.pdb
+C:\Users\studentwsb\source\repos\zajęcia2\zajecia2zad2\obj\Debug\zajecia2zad2.exe
+C:\Users\studentwsb\source\repos\zajęcia2\zajecia2zad2\obj\Debug\zajecia2zad2.pdb
