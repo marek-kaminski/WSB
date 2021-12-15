@@ -1,0 +1,60 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace zad8
+{
+    class zadanie8
+    {
+        static void Main(string[] args)
+        {
+
+
+            //10.Napisz program drukujący na ekranie liczby według poniższego schematu. Wysokość tabeli
+            //wczytaj z klawiatury.Użyj pętli for. Oto wydruk dla wysokości h = 6:
+            //1
+            //2 4
+            //3 6 9
+            //4 8 12 16
+            //5 10 15 20 25
+            //6 12 18 24 30 36
+
+
+
+           Console.WriteLine("Podaj ilość kolumn: ");
+            float h;
+            h = Convert.ToInt32(Console.ReadLine());
+
+            float a;
+            a = 1;
+
+            for (float i = 1; i < h; i++)
+            {
+
+                Console.WriteLine("{0}", i);
+
+                for (float j=i; i < h; j--)
+                {
+
+                    
+
+                }
+
+
+
+
+                Console.Write(a);
+                a = 2 * a;
+
+                Console.Write(a);
+                a = a + 7;
+
+            }
+
+            Console.ReadKey();
+
+        }
+    }
+}
