@@ -1,0 +1,50 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace zad8
+{
+    class zadanie8
+    {
+        static void Main(string[] args)
+        {
+
+
+          //  11.Wczytaj liczbę naturalną n(n > 1).Narysuj na ekranie ze znaków X figurę trójkąta
+          // prostokątnego jak na poniższym przykładzie. Użyj pętli for. Dla n = 5 powinien zostać
+          // narysowany trójkąt:
+
+          //    X
+          //   XX
+          //  XXX
+          // XXXX
+          //XXXXX
+
+            {
+
+
+                Console.WriteLine("Podaj ilość wierszy: ");
+
+                float h;
+                h = Convert.ToInt32(Console.ReadLine());
+
+                int i, j, k;
+                for (i = 1; i <= h; i++)
+                {
+                    for (j = 1; j <= h - i; j++)
+                    {
+                        Console.Write(" ");
+                    }
+                    for (k = 1; k <= i; k++)
+                    {
+                        Console.Write("*");
+                    }
+                    Console.WriteLine("");
+                }
+                Console.ReadLine();
+            }
+        }
+        }
+    }
