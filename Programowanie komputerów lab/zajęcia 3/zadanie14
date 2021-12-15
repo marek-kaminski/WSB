@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace zad8
+{
+    class zadanie8
+    {
+        static void Main(string[] args)
+        {
+
+
+            //            14.Napisz program który wypisuje aktualny czas.Program następnie pyta użytkownika, czy
+            //chce zakończyć program czy chce ponownie wyświetlić aktualny czas.Wciśnięcie klawisza
+            //n kończy program.Użyj pętli while.
+
+
+            {
+                Console.WriteLine("Podaj liczbę a: ");
+
+                DateTime localDate = DateTime.Now;
+
+
+
+
+
+                Console.WriteLine("Wyświetlic znowu aktualny czas? Naciśnij 'n' by przerwać program lub dowolny inny przycisk by kontynuować: ");
+
+
+                Console.WriteLine("Podaj liczbę a: ");
+
+
+
+                Console.ReadLine();
+            }
+        }
+        }
+    }
