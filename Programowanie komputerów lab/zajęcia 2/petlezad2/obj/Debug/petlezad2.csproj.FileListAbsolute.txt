@@ -1,0 +1,5 @@
+C:\Users\studentwsb\source\repos\zajęcia2\petlezad2\bin\Debug\petlezad2.exe.config
+C:\Users\studentwsb\source\repos\zajęcia2\petlezad2\bin\Debug\petlezad2.exe
+C:\Users\studentwsb\source\repos\zajęcia2\petlezad2\bin\Debug\petlezad2.pdb
+C:\Users\studentwsb\source\repos\zajęcia2\petlezad2\obj\Debug\petlezad2.exe
+C:\Users\studentwsb\source\repos\zajęcia2\petlezad2\obj\Debug\petlezad2.pdb
