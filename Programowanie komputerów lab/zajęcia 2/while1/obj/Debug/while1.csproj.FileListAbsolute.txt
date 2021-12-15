@@ -1,0 +1,5 @@
+C:\Users\studentwsb\source\repos\zajęcia2\while1\bin\Debug\while1.exe.config
+C:\Users\studentwsb\source\repos\zajęcia2\while1\bin\Debug\while1.exe
+C:\Users\studentwsb\source\repos\zajęcia2\while1\bin\Debug\while1.pdb
+C:\Users\studentwsb\source\repos\zajęcia2\while1\obj\Debug\while1.exe
+C:\Users\studentwsb\source\repos\zajęcia2\while1\obj\Debug\while1.pdb

@@ -1,0 +1,11 @@
+C:\Users\studentwsb\source\repos\Zajęcia2\zaczynamy\zaczynamy\bin\Debug\netcoreapp3.0\zaczynamy.exe
+C:\Users\studentwsb\source\repos\Zajęcia2\zaczynamy\zaczynamy\bin\Debug\netcoreapp3.0\zaczynamy.deps.json
+C:\Users\studentwsb\source\repos\Zajęcia2\zaczynamy\zaczynamy\bin\Debug\netcoreapp3.0\zaczynamy.runtimeconfig.json
+C:\Users\studentwsb\source\repos\Zajęcia2\zaczynamy\zaczynamy\bin\Debug\netcoreapp3.0\zaczynamy.runtimeconfig.dev.json
+C:\Users\studentwsb\source\repos\Zajęcia2\zaczynamy\zaczynamy\bin\Debug\netcoreapp3.0\zaczynamy.dll
+C:\Users\studentwsb\source\repos\Zajęcia2\zaczynamy\zaczynamy\bin\Debug\netcoreapp3.0\zaczynamy.pdb
+C:\Users\studentwsb\source\repos\Zajęcia2\zaczynamy\zaczynamy\obj\Debug\netcoreapp3.0\zaczynamy.csprojAssemblyReference.cache
+C:\Users\studentwsb\source\repos\Zajęcia2\zaczynamy\zaczynamy\obj\Debug\netcoreapp3.0\zaczynamy.AssemblyInfoInputs.cache
+C:\Users\studentwsb\source\repos\Zajęcia2\zaczynamy\zaczynamy\obj\Debug\netcoreapp3.0\zaczynamy.AssemblyInfo.cs
+C:\Users\studentwsb\source\repos\Zajęcia2\zaczynamy\zaczynamy\obj\Debug\netcoreapp3.0\zaczynamy.dll
+C:\Users\studentwsb\source\repos\Zajęcia2\zaczynamy\zaczynamy\obj\Debug\netcoreapp3.0\zaczynamy.pdb

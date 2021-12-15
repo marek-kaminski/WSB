@@ -1,0 +1,6 @@
+C:\Users\studentwsb\source\repos\zajęcia2\rok_przestepny\bin\Debug\rok_przestepny.exe.config
+C:\Users\studentwsb\source\repos\zajęcia2\rok_przestepny\bin\Debug\rok_przestepny.exe
+C:\Users\studentwsb\source\repos\zajęcia2\rok_przestepny\bin\Debug\rok_przestepny.pdb
+C:\Users\studentwsb\source\repos\zajęcia2\rok_przestepny\obj\Debug\rok_przestepny.csprojAssemblyReference.cache
+C:\Users\studentwsb\source\repos\zajęcia2\rok_przestepny\obj\Debug\rok_przestepny.exe
+C:\Users\studentwsb\source\repos\zajęcia2\rok_przestepny\obj\Debug\rok_przestepny.pdb

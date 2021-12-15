@@ -1,0 +1,6 @@
+C:\Users\studentwsb\source\repos\Zajęcia2\Równanie\obj\Debug\Równanie.csprojAssemblyReference.cache
+C:\Users\studentwsb\source\repos\Zajęcia2\Równanie\bin\Debug\Równanie.exe.config
+C:\Users\studentwsb\source\repos\Zajęcia2\Równanie\bin\Debug\Równanie.exe
+C:\Users\studentwsb\source\repos\Zajęcia2\Równanie\bin\Debug\Równanie.pdb
+C:\Users\studentwsb\source\repos\Zajęcia2\Równanie\obj\Debug\Równanie.exe
+C:\Users\studentwsb\source\repos\Zajęcia2\Równanie\obj\Debug\Równanie.pdb
