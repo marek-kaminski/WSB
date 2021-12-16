@@ -18,18 +18,31 @@ namespace zad8
 
 
             {
-                Console.WriteLine("Podaj liczbę a: ");
-
-                DateTime localDate = DateTime.Now;
 
 
+                bool condition = true;
+
+
+                while(condition == true)
+                {
+                    DateTime localDate = DateTime.Now;
+
+                    Console.WriteLine("Aktualny czas to: {0} ", localDate);
+
+                    Console.WriteLine("Wyświetlic znowu aktualny czas? Naciśnij 'n' by przerwać program lub dowolny inny przycisk by kontynuować: ");
+
+ 
+                    string a = Convert.ToString(Console.ReadLine());
+                    if(a == "n")
+                    {
+                        condition = false;
+                    }
+                    else { }
 
 
 
-                Console.WriteLine("Wyświetlic znowu aktualny czas? Naciśnij 'n' by przerwać program lub dowolny inny przycisk by kontynuować: ");
+                }
 
-
-                Console.WriteLine("Podaj liczbę a: ");
 
 
 
