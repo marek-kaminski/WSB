@@ -1,0 +1,148 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace zad8
+{
+
+
+    struct Wizytowka
+    {
+        public string imie;
+        public string nazwisko;
+        public string email;
+        public string numer;
+    }
+
+
+
+    class zadanie8
+    {
+        static void Main(string[] args)
+        {
+
+
+            Wizytowka w;
+            Console.WriteLine("podaj imię: ");
+            w.imie = Console.ReadLine();
+
+            Console.WriteLine("podaj nazwisko: ");
+            w.nazwisko = Console.ReadLine();
+
+            string imienazwisko = w.imie + " " + w.nazwisko;
+            int a = imienazwisko.Length;
+
+
+            Console.WriteLine("podaj email: ");
+            w.email = Console.ReadLine();
+            w.email = "e-mail: " + w.email;
+            int b = w.email.Length;
+
+
+            Console.WriteLine("podaj numer: ");
+            w.numer = Console.ReadLine();
+
+            string telefon = "tel. " + w.numer;
+            int c = telefon.Length;
+
+            int maksimum = Math.Max(Math.Max(a, b), c);
+
+
+            // ten kod sprawdza czy podane wartości są parzyste, by uzupełnić gwiazdki na wypadek nieparzystej liczby 
+            int parzyste_imie = imienazwisko.Length % 2;
+            int parzyste_email = w.email.Length % 2;
+            int parzyste_telefon = telefon.Length % 2;
+
+
+
+
+
+
+
+
+
+
+            if (parzyste_imie != 0 || parzyste_email != 0 || parzyste_telefon != 0)
+            {
+                Console.Write("*");
+            }
+            for (int i = 0; i < maksimum + 4; i++)
+            {
+                Console.Write("*");
+            }
+            int s = (maksimum + 4 - a - 2) / 2;
+            int g = (maksimum + 4 - b - 2) / 2;
+            int h = (maksimum + 4 - c - 2) / 2;
+
+
+
+            Console.WriteLine();
+            Console.Write("*");
+            for (int i = 0; i < s; i++)
+            {
+                Console.Write(" ");
+            }
+
+            Console.Write(imienazwisko);
+            if (parzyste_imie != 0 || parzyste_email != 0 || parzyste_telefon != 0) { Console.Write(" "); }
+            for (int i = 0; i < s; i++)
+            {
+                Console.Write(" ");
+            }
+            Console.Write("*");
+
+
+
+
+
+
+            Console.WriteLine();
+            Console.Write("*");
+            for (int i = 0; i < g; i++)
+            {
+                Console.Write(" ");
+            }
+            Console.Write(w.email);
+            if (parzyste_imie != 0 || parzyste_email != 0 || parzyste_telefon != 0) { Console.Write(" "); }
+            for (int i = 0; i < g; i++)
+            {
+                Console.Write(" ");
+            }
+            Console.Write("*");
+
+
+
+            Console.WriteLine();
+            Console.Write("*");
+            for (int i = 0; i < h; i++)
+            {
+                Console.Write(" ");
+            }
+            Console.Write(telefon);
+            if (parzyste_imie != 0 || parzyste_email != 0 || parzyste_telefon != 0) { Console.Write(" "); }
+            for (int i = 0; i < h; i++)
+            {
+                Console.Write(" ");
+            }
+            Console.Write("*");
+
+
+
+            Console.WriteLine();
+            if (parzyste_imie != 0 || parzyste_email != 0 || parzyste_telefon != 0)
+            {
+                Console.Write("*");
+            }
+            for (int i = 0; i < maksimum + 4; i++)
+            {
+                Console.Write("*");
+            }
+
+
+
+            Console.ReadLine();
+            }
+        }
+    }
